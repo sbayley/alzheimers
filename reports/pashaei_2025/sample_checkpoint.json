@@ -1,0 +1,103 @@
+{
+  "generated_utc": "2026-11-08T15:01:03.483165+00:00",
+  "source_paper": "https://doi.org/10.3390/ijms26051816",
+  "selection_rule": "Include exact evidence-backed AD or control labels; retain other groups as explicit exclusions. No quality-control exclusions yet.",
+  "interpretation": "Matching array counts does not establish matching exact sample selection, donor independence, or reproduced gene-level results.",
+  "datasets": [
+    {
+      "accession": "GSE48350",
+      "role": "development",
+      "raw_array_count": 253,
+      "selected_array_count": 253,
+      "observed_ad": 80,
+      "observed_control": 173,
+      "published_ad": 80,
+      "published_control": 173,
+      "count_match": true,
+      "excluded_group_counts": {},
+      "source_sha256": "4bb36e0cf50306a96aea853de5f70d5ab63345238997bed8c9b5b290ced58fef",
+      "selected_donor_id_count": 57,
+      "selected_unknown_donor_arrays": 80
+    },
+    {
+      "accession": "GSE36980",
+      "role": "development",
+      "raw_array_count": 80,
+      "selected_array_count": 80,
+      "observed_ad": 33,
+      "observed_control": 47,
+      "published_ad": 33,
+      "published_control": 47,
+      "count_match": true,
+      "excluded_group_counts": {},
+      "source_sha256": "f0a06b279f280773d086d5247fe7609fc4bd8dd71d5095f4de81bb8103e2609c",
+      "selected_donor_id_count": 0,
+      "selected_unknown_donor_arrays": 80
+    },
+    {
+      "accession": "GSE132903",
+      "role": "development",
+      "raw_array_count": 195,
+      "selected_array_count": 195,
+      "observed_ad": 97,
+      "observed_control": 98,
+      "published_ad": 97,
+      "published_control": 98,
+      "count_match": true,
+      "excluded_group_counts": {},
+      "source_sha256": "11286533c0730ccecb97ae3cc773cc51f87b53f631ea5e3c4893a1fb6ac45290",
+      "selected_donor_id_count": 0,
+      "selected_unknown_donor_arrays": 195
+    },
+    {
+      "accession": "GSE118553",
+      "role": "development",
+      "raw_array_count": 401,
+      "selected_array_count": 267,
+      "observed_ad": 167,
+      "observed_control": 100,
+      "published_ad": 167,
+      "published_control": 100,
+      "count_match": true,
+      "excluded_group_counts": {
+        "asymptomatic Alzheimer's disease": 134
+      },
+      "source_sha256": "2b039a1c0edb9f2adb7034ecdf26d824b235b826370df102b9327f5e3095432b",
+      "selected_donor_id_count": 79,
+      "selected_unknown_donor_arrays": 0
+    },
+    {
+      "accession": "GSE5281",
+      "role": "development",
+      "raw_array_count": 161,
+      "selected_array_count": 161,
+      "observed_ad": 87,
+      "observed_control": 74,
+      "published_ad": 87,
+      "published_control": 74,
+      "count_match": true,
+      "excluded_group_counts": {},
+      "source_sha256": "4cf3d2e7948f712fe9a145fcc2e8f34767eb2715284011148b3204c732e68e36",
+      "selected_donor_id_count": 0,
+      "selected_unknown_donor_arrays": 161
+    },
+    {
+      "accession": "GSE109887",
+      "role": "test",
+      "raw_array_count": 78,
+      "selected_array_count": 78,
+      "observed_ad": 46,
+      "observed_control": 32,
+      "published_ad": 46,
+      "published_control": 32,
+      "count_match": true,
+      "excluded_group_counts": {},
+      "source_sha256": "66d3b34ebe50d5cd36d1d5aad5100e3e07923ca2264764f98fc63b2fa9ea1234",
+      "selected_donor_id_count": 0,
+      "selected_unknown_donor_arrays": 78
+    }
+  ],
+  "all_published_counts_match": true,
+  "development_arrays": 956,
+  "test_arrays": 78
+}

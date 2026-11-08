@@ -1,0 +1,40 @@
+{
+  "probe_rows": 42179,
+  "gene_rows": 28859,
+  "significant_gene_count": 15685,
+  "collapse_rule_check": true,
+  "adjusted_p_value_range_check": true,
+  "contrast_spot_checks": [
+    {
+      "feature_id": "ILMN_1343291",
+      "mean_AD_minus_control": -0.04054934185042036,
+      "limma_coefficient": -0.0405493418504097,
+      "matches": true
+    },
+    {
+      "feature_id": "ILMN_1343295",
+      "mean_AD_minus_control": -0.24999106373280178,
+      "limma_coefficient": -0.249991063732796,
+      "matches": true
+    },
+    {
+      "feature_id": "ILMN_1651199",
+      "mean_AD_minus_control": -0.0026470546542158857,
+      "limma_coefficient": -0.00264705465421677,
+      "matches": true
+    },
+    {
+      "feature_id": "ILMN_1651209",
+      "mean_AD_minus_control": 0.024237159904797245,
+      "limma_coefficient": 0.0242371599047981,
+      "matches": true
+    },
+    {
+      "feature_id": "ILMN_1651210",
+      "mean_AD_minus_control": 0.0015162474052194952,
+      "limma_coefficient": 0.00151624740522038,
+      "matches": true
+    }
+  ],
+  "interpretation": "Checks implementation alignment and reported counts, not biological validity or faithful author-method equivalence."
+}

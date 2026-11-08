@@ -1,0 +1,15 @@
+{
+  "limits": {
+    "max_file_bytes": 250000000,
+    "max_total_bytes": 2000000000,
+    "max_expanded_bytes": 2000000000,
+    "timeout_seconds": 45,
+    "retries": 2,
+    "min_interval_seconds": 1.0
+  },
+  "max_concurrent_downloads": 1,
+  "discovery_record_max_bytes": 2000000,
+  "accessions": ["GSE48350", "GSE5281", "GSE132903"],
+  "data_root": "data",
+  "manifest": "registry/dataset_manifest.json"
+}

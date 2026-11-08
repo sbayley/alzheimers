@@ -1,0 +1,54 @@
+{
+  "source_path": "data/raw/GSE5281/GSE5281_sample_characteristics.xls",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE5nnn/GSE5281/suppl/GSE5281_sample_characteristics.xls",
+  "source_bytes": 85504,
+  "sha256": "63f684ea03eaba5d66dd78f055e03a39b587eb653049d3985848925e55159b71",
+  "reader": "xlrd 2.0.2",
+  "sheets": [
+    {
+      "sheet": "characteristics",
+      "rows_including_header": 162,
+      "columns": 16,
+      "headers": [
+        "GEO Accession:",
+        "Sample Name:",
+        "MAGE Identifier:",
+        "Sample Description:",
+        "Sample Amount:",
+        "Bio-Source Name:",
+        "Organism:",
+        "Organ/Tissue Type:",
+        "Organ Region:",
+        "Cell Type:",
+        "Ethnicity:",
+        "Developmental Stage:",
+        "Disease State:",
+        "Sex:",
+        "Genetic Variation:",
+        "Age:"
+      ],
+      "data_rows": 161,
+      "unique_sample_accessions": 161,
+      "duplicate_sample_accessions": [],
+      "invalid_sample_accessions": [],
+      "diagnosis_as_recorded_counts": {
+        "normal": 74,
+        "Alzheimer's Disease": 87
+      },
+      "region_as_recorded_counts": {
+        "Entorhinal Cortex": 23,
+        "hippocampus": 23,
+        "Medial Temporal Gyrus": 28,
+        "Posterior Singulate": 22,
+        "Superior Frontal Gyrus": 34,
+        "Primary Visual Cortex": 31
+      },
+      "donor_identifiers": "unknown: no explicitly identified donor/person field; MAGE biosample identifiers are not assumed to identify donors",
+      "csv_path": "data/processed/GSE5281_supplement_sheet_0.csv",
+      "matrix_sample_set_matches": true,
+      "only_in_supplement": [],
+      "only_in_matrix": []
+    }
+  ],
+  "interpretation": "Original cells exported without inference. Sample-set matching does not establish donor independence."
+}

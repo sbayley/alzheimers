@@ -1,0 +1,248 @@
+{
+  "generated_utc": "2026-11-08T15:10:12.947931+00:00",
+  "interpretation": "Aggregate mapping coverage from current official GEO annotation tables, not confirmed historical author annotation. Unique source symbols are not independently validated current human gene identifiers. No sample identifiers, donor identifiers, expression values or feature-level mappings are included.",
+  "public_snapshot_note": "Selected aggregate fields from the preserved local mapping checkpoint; machine-specific repository-root prefixes have been removed from source paths. Detailed mapping files and original acquisition records remain local.",
+  "platforms": [
+    {
+      "platform": "GPL10558",
+      "source_path": "data/raw/platforms/GPL10558.full.soft.txt",
+      "source_bytes": 75786263,
+      "source_sha256": "573703e669b9cdd7e8b16dfa92e2474ce65a02676179cf3e31c353a16ff95f4e",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10558&targ=self&form=text&view=full",
+      "mapping_field": "Symbol",
+      "annotation_rows": 48107,
+      "declared_annotation_rows": 48107,
+      "unique_feature_ids": 48107,
+      "duplicate_id_rows": 0,
+      "duplicate_id_conflicts": 0,
+      "mapping_status_counts": {
+        "unique": 44837,
+        "unmapped": 3270
+      },
+      "interpretation": "Current GEO mapping reconstruction candidates; author annotation release is unconfirmed. A unique source symbol is not an independently validated current human gene identifier.",
+      "exported_feature_rows": 47323
+    },
+    {
+      "platform": "GPL570",
+      "source_path": "data/raw/platforms/GPL570.full.soft.txt",
+      "source_bytes": 85646369,
+      "source_sha256": "4bd2256fae7fe004b609b700612c631a7353b3d8a3ec84c7b5ca6714e71e5f72",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570&targ=self&form=text&view=full",
+      "mapping_field": "Gene Symbol",
+      "annotation_rows": 54675,
+      "declared_annotation_rows": 54675,
+      "unique_feature_ids": 54675,
+      "duplicate_id_rows": 0,
+      "duplicate_id_conflicts": 0,
+      "mapping_status_counts": {
+        "multiple_symbols": 2619,
+        "unique": 43163,
+        "unmapped": 8893
+      },
+      "interpretation": "Current GEO mapping reconstruction candidates; author annotation release is unconfirmed. A unique source symbol is not an independently validated current human gene identifier.",
+      "exported_feature_rows": 54675
+    },
+    {
+      "platform": "GPL6244",
+      "source_path": "data/raw/platforms/GPL6244.full.soft.txt",
+      "source_bytes": 100752926,
+      "source_sha256": "0f24e967e81b908ecc3a6a8b2a84eff11eb020bad22b8e0ac50b67149058fc43",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244&targ=self&form=text&view=full",
+      "mapping_field": "gene_assignment",
+      "annotation_rows": 33297,
+      "declared_annotation_rows": 33297,
+      "unique_feature_ids": 33297,
+      "duplicate_id_rows": 0,
+      "duplicate_id_conflicts": 0,
+      "mapping_status_counts": {
+        "unmapped": 8004,
+        "multiple_symbols": 3122,
+        "unique": 22152,
+        "source_truncated_assignment": 19
+      },
+      "interpretation": "Current GEO mapping reconstruction candidates; author annotation release is unconfirmed. A unique source symbol is not an independently validated current human gene identifier.",
+      "exported_feature_rows": 33297
+    },
+    {
+      "platform": "GPL10904",
+      "source_path": "data/raw/platforms/GPL10904.full.soft.txt",
+      "source_bytes": 896292,
+      "source_sha256": "278f72a45b36320134029b2bf824bb2b9f48fd93aa2ce9c9779d91e2c804d923",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10904&targ=self&form=text&view=full",
+      "mapping_field": "ID",
+      "annotation_rows": 34695,
+      "declared_annotation_rows": 34695,
+      "unique_feature_ids": 34695,
+      "duplicate_id_rows": 0,
+      "duplicate_id_conflicts": 0,
+      "mapping_status_counts": {
+        "unique": 34695
+      },
+      "interpretation": "Current GEO mapping reconstruction candidates; author annotation release is unconfirmed. A unique source symbol is not an independently validated current human gene identifier.",
+      "exported_feature_rows": 31700
+    }
+  ],
+  "datasets": [
+    {
+      "accession": "GSE132903",
+      "source_path": "data/raw/GSE132903/GSE132903_series_matrix.txt.gz",
+      "source_sha256": "11286533c0730ccecb97ae3cc773cc51f87b53f631ea5e3c4893a1fb6ac45290",
+      "feature_count": 42179,
+      "sample_count": 195,
+      "platform": "GPL10558",
+      "mapping_status_counts": {
+        "unique": 39310,
+        "unmapped": 2869
+      },
+      "distinct_unique_source_symbols": 28859,
+      "probes_per_unique_symbol": {
+        "3": 1652,
+        "1": 21602,
+        "4": 448,
+        "2": 4975,
+        "5": 126,
+        "6": 37,
+        "10": 2,
+        "8": 8,
+        "16": 1,
+        "7": 7,
+        "9": 1
+      },
+      "unique_mapping_fraction": 0.9319803693781266
+    },
+    {
+      "accession": "GSE118553",
+      "source_path": "data/raw/GSE118553/GSE118553_series_matrix.txt.gz",
+      "source_sha256": "2b039a1c0edb9f2adb7034ecdf26d824b235b826370df102b9327f5e3095432b",
+      "feature_count": 47323,
+      "sample_count": 401,
+      "platform": "GPL10558",
+      "mapping_status_counts": {
+        "unique": 44053,
+        "unmapped": 3270
+      },
+      "distinct_unique_source_symbols": 31426,
+      "probes_per_unique_symbol": {
+        "4": 608,
+        "3": 1991,
+        "1": 22958,
+        "5": 189,
+        "2": 5600,
+        "6": 52,
+        "7": 15,
+        "13": 1,
+        "10": 2,
+        "9": 3,
+        "8": 5,
+        "17": 1,
+        "11": 1
+      },
+      "unique_mapping_fraction": 0.9309004078355134
+    },
+    {
+      "accession": "GSE48350",
+      "source_path": "data/raw/GSE48350/GSE48350_series_matrix.txt.gz",
+      "source_sha256": "4bb36e0cf50306a96aea853de5f70d5ab63345238997bed8c9b5b290ced58fef",
+      "feature_count": 54675,
+      "sample_count": 253,
+      "platform": "GPL570",
+      "mapping_status_counts": {
+        "multiple_symbols": 2619,
+        "unique": 43163,
+        "unmapped": 8893
+      },
+      "distinct_unique_source_symbols": 21815,
+      "probes_per_unique_symbol": {
+        "2": 5256,
+        "8": 49,
+        "3": 2814,
+        "4": 1376,
+        "5": 706,
+        "7": 160,
+        "1": 11064,
+        "6": 327,
+        "9": 30,
+        "11": 7,
+        "10": 15,
+        "15": 1,
+        "12": 5,
+        "13": 5
+      },
+      "unique_mapping_fraction": 0.7894467306812986
+    },
+    {
+      "accession": "GSE5281",
+      "source_path": "data/raw/GSE5281/GSE5281_series_matrix.txt.gz",
+      "source_sha256": "4cf3d2e7948f712fe9a145fcc2e8f34767eb2715284011148b3204c732e68e36",
+      "feature_count": 54675,
+      "sample_count": 161,
+      "platform": "GPL570",
+      "mapping_status_counts": {
+        "multiple_symbols": 2619,
+        "unique": 43163,
+        "unmapped": 8893
+      },
+      "distinct_unique_source_symbols": 21815,
+      "probes_per_unique_symbol": {
+        "2": 5256,
+        "8": 49,
+        "3": 2814,
+        "4": 1376,
+        "5": 706,
+        "7": 160,
+        "1": 11064,
+        "6": 327,
+        "9": 30,
+        "11": 7,
+        "10": 15,
+        "15": 1,
+        "12": 5,
+        "13": 5
+      },
+      "unique_mapping_fraction": 0.7894467306812986
+    },
+    {
+      "accession": "GSE36980",
+      "source_path": "data/raw/GSE36980/GSE36980_series_matrix.txt.gz",
+      "source_sha256": "f0a06b279f280773d086d5247fe7609fc4bd8dd71d5095f4de81bb8103e2609c",
+      "feature_count": 33297,
+      "sample_count": 80,
+      "platform": "GPL6244",
+      "mapping_status_counts": {
+        "unmapped": 8004,
+        "multiple_symbols": 3122,
+        "unique": 22152,
+        "source_truncated_assignment": 19
+      },
+      "distinct_unique_source_symbols": 21407,
+      "probes_per_unique_symbol": {
+        "2": 454,
+        "1": 20832,
+        "3": 107,
+        "5": 3,
+        "4": 7,
+        "26": 1,
+        "10": 1,
+        "6": 2
+      },
+      "unique_mapping_fraction": 0.6652851608252995
+    },
+    {
+      "accession": "GSE109887",
+      "source_path": "data/raw/GSE109887/GSE109887_series_matrix.txt.gz",
+      "source_sha256": "66d3b34ebe50d5cd36d1d5aad5100e3e07923ca2264764f98fc63b2fa9ea1234",
+      "feature_count": 31700,
+      "sample_count": 78,
+      "platform": "GPL10904",
+      "mapping_status_counts": {
+        "unique": 31700
+      },
+      "distinct_unique_source_symbols": 31700,
+      "probes_per_unique_symbol": {
+        "1": 31700
+      },
+      "unique_mapping_fraction": 1.0
+    }
+  ],
+  "error_count": 0
+}

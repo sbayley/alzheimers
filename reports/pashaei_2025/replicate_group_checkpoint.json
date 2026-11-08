@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "GSE48350",
+    "same_donor_region_groups": 0,
+    "arrays_in_those_groups": 0,
+    "excess_arrays_if_one_per_group": 0,
+    "interpretation": "Review candidates, not automatic technical-replicate exclusions"
+  },
+  {
+    "dataset": "GSE36980",
+    "same_donor_region_groups": 0,
+    "arrays_in_those_groups": 0,
+    "excess_arrays_if_one_per_group": 0,
+    "interpretation": "Review candidates, not automatic technical-replicate exclusions"
+  },
+  {
+    "dataset": "GSE132903",
+    "same_donor_region_groups": 0,
+    "arrays_in_those_groups": 0,
+    "excess_arrays_if_one_per_group": 0,
+    "interpretation": "Review candidates, not automatic technical-replicate exclusions"
+  },
+  {
+    "dataset": "GSE118553",
+    "same_donor_region_groups": 48,
+    "arrays_in_those_groups": 97,
+    "excess_arrays_if_one_per_group": 49,
+    "interpretation": "Review candidates, not automatic technical-replicate exclusions"
+  },
+  {
+    "dataset": "GSE5281",
+    "same_donor_region_groups": 0,
+    "arrays_in_those_groups": 0,
+    "excess_arrays_if_one_per_group": 0,
+    "interpretation": "Review candidates, not automatic technical-replicate exclusions"
+  },
+  {
+    "dataset": "GSE109887",
+    "same_donor_region_groups": 0,
+    "arrays_in_those_groups": 0,
+    "excess_arrays_if_one_per_group": 0,
+    "interpretation": "Review candidates, not automatic technical-replicate exclusions"
+  }
+]

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alzresearch"
+version = "0.1.0"
+description = "Bounded public-data acquisition and evidence-first Alzheimer's metadata audit"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+legacy-xls = ["xlrd==2.0.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

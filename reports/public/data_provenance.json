@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "interpretation": "Curated provenance for six processed expression matrices and four full official platform annotation records acquired for the exploratory data-curation case study. Records describe the retained local snapshots, not the current contents of remote URLs. Null Last-Modified or ETag values mean the recorded response did not provide that header.",
+  "snapshot_completed_utc": "2026-11-08T15:01:32.150012+00:00",
+  "sources": [
+    {
+      "accession": "GSE48350",
+      "kind": "processed_series_matrix",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48350/matrix/GSE48350_series_matrix.txt.gz",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48350/matrix/GSE48350_series_matrix.txt.gz",
+      "local_path": "data/raw/GSE48350/GSE48350_series_matrix.txt.gz",
+      "byte_count": 60194969,
+      "sha256": "4bb36e0cf50306a96aea853de5f70d5ab63345238997bed8c9b5b290ced58fef",
+      "retrieved_at_utc": "2026-11-08T01:35:45.746183+00:00",
+      "last_modified": "Mon, 02 Nov 2026 07:42:43 GMT",
+      "etag": null
+    },
+    {
+      "accession": "GSE36980",
+      "kind": "processed_series_matrix",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE36nnn/GSE36980/matrix/GSE36980_series_matrix.txt.gz",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE36nnn/GSE36980/matrix/GSE36980_series_matrix.txt.gz",
+      "local_path": "data/raw/GSE36980/GSE36980_series_matrix.txt.gz",
+      "byte_count": 8886746,
+      "sha256": "f0a06b279f280773d086d5247fe7609fc4bd8dd71d5095f4de81bb8103e2609c",
+      "retrieved_at_utc": "2026-11-08T14:57:25.351250+00:00",
+      "last_modified": "Mon, 05 Oct 2026 12:57:03 GMT",
+      "etag": null
+    },
+    {
+      "accession": "GSE132903",
+      "kind": "processed_series_matrix",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132903/matrix/GSE132903_series_matrix.txt.gz",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132903/matrix/GSE132903_series_matrix.txt.gz",
+      "local_path": "data/raw/GSE132903/GSE132903_series_matrix.txt.gz",
+      "byte_count": 41956695,
+      "sha256": "11286533c0730ccecb97ae3cc773cc51f87b53f631ea5e3c4893a1fb6ac45290",
+      "retrieved_at_utc": "2026-11-08T01:35:53.283069+00:00",
+      "last_modified": "Mon, 26 Oct 2026 06:07:04 GMT",
+      "etag": null
+    },
+    {
+      "accession": "GSE118553",
+      "kind": "processed_series_matrix",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE118nnn/GSE118553/matrix/GSE118553_series_matrix.txt.gz",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE118nnn/GSE118553/matrix/GSE118553_series_matrix.txt.gz",
+      "local_path": "data/raw/GSE118553/GSE118553_series_matrix.txt.gz",
+      "byte_count": 149479055,
+      "sha256": "2b039a1c0edb9f2adb7034ecdf26d824b235b826370df102b9327f5e3095432b",
+      "retrieved_at_utc": "2026-11-08T14:57:36.885249+00:00",
+      "last_modified": "Tue, 01 Sep 2026 05:32:43 GMT",
+      "etag": null
+    },
+    {
+      "accession": "GSE5281",
+      "kind": "processed_series_matrix",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE5nnn/GSE5281/matrix/GSE5281_series_matrix.txt.gz",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE5nnn/GSE5281/matrix/GSE5281_series_matrix.txt.gz",
+      "local_path": "data/raw/GSE5281/GSE5281_series_matrix.txt.gz",
+      "byte_count": 35937055,
+      "sha256": "4cf3d2e7948f712fe9a145fcc2e8f34767eb2715284011148b3204c732e68e36",
+      "retrieved_at_utc": "2026-11-08T01:35:48.651654+00:00",
+      "last_modified": "Tue, 06 Oct 2026 17:12:52 GMT",
+      "etag": null
+    },
+    {
+      "accession": "GSE109887",
+      "kind": "processed_series_matrix",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE109nnn/GSE109887/matrix/GSE109887_series_matrix.txt.gz",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE109nnn/GSE109887/matrix/GSE109887_series_matrix.txt.gz",
+      "local_path": "data/raw/GSE109887/GSE109887_series_matrix.txt.gz",
+      "byte_count": 17908567,
+      "sha256": "66d3b34ebe50d5cd36d1d5aad5100e3e07923ca2264764f98fc63b2fa9ea1234",
+      "retrieved_at_utc": "2026-11-08T14:57:41.503924+00:00",
+      "last_modified": "Mon, 26 Oct 2026 06:22:31 GMT",
+      "etag": null
+    },
+    {
+      "accession": "GPL10558",
+      "kind": "full_platform_annotation",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10558&targ=self&form=text&view=full",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10558&targ=self&form=text&view=full",
+      "local_path": "data/raw/platforms/GPL10558.full.soft.txt",
+      "byte_count": 75786263,
+      "sha256": "573703e669b9cdd7e8b16dfa92e2474ce65a02676179cf3e31c353a16ff95f4e",
+      "retrieved_at_utc": "2026-11-08T15:01:07.625000+00:00",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "accession": "GPL10904",
+      "kind": "full_platform_annotation",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10904&targ=self&form=text&view=full",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10904&targ=self&form=text&view=full",
+      "local_path": "data/raw/platforms/GPL10904.full.soft.txt",
+      "byte_count": 896292,
+      "sha256": "278f72a45b36320134029b2bf824bb2b9f48fd93aa2ce9c9779d91e2c804d923",
+      "retrieved_at_utc": "2026-11-08T15:01:09.012677+00:00",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "accession": "GPL570",
+      "kind": "full_platform_annotation",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570&targ=self&form=text&view=full",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570&targ=self&form=text&view=full",
+      "local_path": "data/raw/platforms/GPL570.full.soft.txt",
+      "byte_count": 85646369,
+      "sha256": "4bd2256fae7fe004b609b700612c631a7353b3d8a3ec84c7b5ca6714e71e5f72",
+      "retrieved_at_utc": "2026-11-08T15:01:16.435442+00:00",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "accession": "GPL6244",
+      "kind": "full_platform_annotation",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244&targ=self&form=text&view=full",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244&targ=self&form=text&view=full",
+      "local_path": "data/raw/platforms/GPL6244.full.soft.txt",
+      "byte_count": 100752926,
+      "sha256": "0f24e967e81b908ecc3a6a8b2a84eff11eb020bad22b8e0ac50b67149058fc43",
+      "retrieved_at_utc": "2026-11-08T15:01:31.510706+00:00",
+      "last_modified": null,
+      "etag": null
+    }
+  ]
+}

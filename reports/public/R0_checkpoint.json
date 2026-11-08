@@ -1,0 +1,97 @@
+{
+  "started_utc": "2026-11-08T15:15:08.708199+00:00",
+  "variant": "R0_GSE132903_v1",
+  "plan": "plans/pashaei_2025_reproduction.md",
+  "inputs": {
+    "data/raw/GSE132903/GSE132903_series_matrix.txt.gz": {
+      "sha256": "11286533c0730ccecb97ae3cc773cc51f87b53f631ea5e3c4893a1fb6ac45290",
+      "bytes": 41956695
+    },
+    "data/processed/pashaei_2025/mappings/GPL10558.csv": {
+      "sha256": "3ec8da9bd6fcd3201588b748e4686b2ddccc045ff817cd6115c5790925581d1b",
+      "bytes": 4274354
+    },
+    "data/processed/pashaei_2025/paper_sample_selection.csv": {
+      "sha256": "0a7f237903b112c2667df170a66ba7df49992cedce08e3a43d820c3b6cc6c4ac",
+      "bytes": 303087
+    },
+    "data/raw/platforms/GPL10558.full.soft.txt": {
+      "sha256": "573703e669b9cdd7e8b16dfa92e2474ce65a02676179cf3e31c353a16ff95f4e",
+      "bytes": 75786263
+    },
+    "scripts/pashaei_limma_checkpoint.R": {
+      "sha256": "8dc688b50e9ac23bb578cb27c38bd82f668b385302a14397380016dccd8e503c",
+      "bytes": 4692
+    },
+    "plans/pashaei_2025_reproduction.md": {
+      "sha256": "a4f3e7d0f1151df3bdfc24f404b58a1ceebf9910c60bf42afa448702857d707f",
+      "bytes": 14498
+    }
+  },
+  "interpretation": "Historical numerical reconstruction with explicit current-GEO mapping/model assumptions. No correction variant or classifier.",
+  "status": "completed",
+  "command": [
+    ".r-env/bin/Rscript",
+    "--vanilla",
+    "scripts/pashaei_limma_checkpoint.R",
+    "data/raw/GSE132903/GSE132903_series_matrix.txt.gz",
+    "data/processed/pashaei_2025/paper_sample_selection.csv",
+    "data/processed/pashaei_2025/mappings/GPL10558.csv",
+    "data/processed/pashaei_2025/R0_GSE132903_v1",
+    "GSE132903"
+  ],
+  "returncode": 0,
+  "completed_utc": "2026-11-08T15:15:12.224991+00:00",
+  "summary": {
+    "accession": "GSE132903",
+    "arrays": "195",
+    "AD_arrays": "97",
+    "control_arrays": "98",
+    "tested_probes": "42179",
+    "mapped_single_symbol_probes": "39310",
+    "unique_mapped_genes": "28859",
+    "significant_probes_BH005": "20222",
+    "significant_genes_BH005": "15685",
+    "up_genes": "8458",
+    "down_genes": "7227",
+    "published_gene_count": "11773",
+    "difference_from_published_count": "3912",
+    "limma_version": "3.56.2",
+    "interpretation": "R0 historical reconstruction assumptions; no corrected variant or classifier run"
+  },
+  "outputs": {
+    "data/processed/pashaei_2025/R0_GSE132903_v1/checkpoint_summary.csv": {
+      "sha256": "fa48bc7b2fdb59727008a789c642ffe215825b1e99ead4e93f3c0d93dc2f09a0",
+      "bytes": 450
+    },
+    "data/processed/pashaei_2025/R0_GSE132903_v1/gene_results.csv": {
+      "sha256": "bc1dcbe77f23ba6cfa91ab82d0cfe7ac8ceaa1b2dd99aea60792ae80c1bb6551",
+      "bytes": 4152807
+    },
+    "data/processed/pashaei_2025/R0_GSE132903_v1/included_samples.csv": {
+      "sha256": "9a66ece93a5cfd964e500f5e5f65685c1587903958ab93f5a753259c8e956d4c",
+      "bytes": 4027
+    },
+    "data/processed/pashaei_2025/R0_GSE132903_v1/plan_snapshot.md": {
+      "sha256": "a4f3e7d0f1151df3bdfc24f404b58a1ceebf9910c60bf42afa448702857d707f",
+      "bytes": 14498
+    },
+    "data/processed/pashaei_2025/R0_GSE132903_v1/probe_results.csv": {
+      "sha256": "b882de892d1addc9b15e431d501e77fe418010e66a20b640838ecf8e60494d75",
+      "bytes": 6039469
+    },
+    "data/processed/pashaei_2025/R0_GSE132903_v1/run.log": {
+      "sha256": "3e3cbe07b4fe4b3853a9c01b530364d2f0b9b6a12010d7a5a135b604e98d22e4",
+      "bytes": 662
+    },
+    "data/processed/pashaei_2025/R0_GSE132903_v1/sessionInfo.txt": {
+      "sha256": "78e5675d265035f74846bec265032e71089de9effd8890632ff229ad56b36d74",
+      "bytes": 539
+    },
+    "data/processed/pashaei_2025/R0_GSE132903_v1/significant_genes.csv": {
+      "sha256": "c526ea74e3772557253448c15375e0e52bae15708e9bad17c704a4cb36fe2eca",
+      "bytes": 2269970
+    }
+  },
+  "public_snapshot_note": "Copied from the preserved local R0 run record. Machine-specific repository-root prefixes in command arguments have been removed so paths are repository-relative; numerical results, timestamps, input/output hashes and the recorded plan hash are unchanged. Referenced raw data, detailed outputs, and the original frozen plan snapshot are retained locally and are not distributed in this repository."
+}

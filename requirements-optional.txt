@@ -1,0 +1,2 @@
+# Only for inspecting GEO's historical GSE5281 .xls supplement.
+xlrd==2.0.2

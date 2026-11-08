@@ -1,0 +1,42 @@
+.venv/
+.r-env/
+.tools/
+.r-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.DS_Store
+.env
+.env.*
+data/*
+!data/raw/
+!data/processed/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.part
+*.tmp
+
+# Local editor/session state and historical working notes
+.idea/
+.local/
+docs/history/
+
+# Acquisition records and detailed generated outputs remain local.
+# Public evidence is an explicit allowlist of aggregate snapshots.
+registry/
+reports/*
+!reports/public/
+!reports/pashaei_2025/
+reports/pashaei_2025/*
+!reports/pashaei_2025/sample_checkpoint.json
+!reports/pashaei_2025/replicate_group_checkpoint.json
+!reports/pashaei_2025/R0_verification.json
+!reports/pashaei_2025/progress.md
+!reports/GSE5281_supplement_audit.json
+!reports/test_results.txt
+!reports/pashaei_2025_methods_audit.md
+!reports/pashaei_2025_source_qc.md
+!reports/pashaei_2025_annotation_sources.md
